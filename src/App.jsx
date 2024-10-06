@@ -1,9 +1,20 @@
+import { useState } from "react"
+import { useRef } from "react"
+import "./App.css"
+import Card from "./card"
+
+
 function App(){
-  return(
+   return(
     <>
-      <h1>Hello World</h1>
-      <h2>good bye </h2>
+      <Card title = 'Card 1' description='abc' />
+      <Card title = 'Card 2' description='def' />
     </>
-  )
+   )
+
+          
 }
 export default App;
+
+
+
